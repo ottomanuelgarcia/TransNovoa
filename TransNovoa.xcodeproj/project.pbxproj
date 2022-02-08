@@ -3,10 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E715009D27725BBF00AB8FDB /* ReservasC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715009C27725BBF00AB8FDB /* ReservasC.swift */; };
+		E71854F62773ADF0008CB99A /* ReservasPasajesC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71854F52773ADF0008CB99A /* ReservasPasajesC.swift */; };
+		E71854F92773CFFE008CB99A /* ReservarPasajeC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71854F82773CFFE008CB99A /* ReservarPasajeC.swift */; };
+		E71892442774DA87006628E7 /* PasajeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71892432774DA87006628E7 /* PasajeCell.swift */; };
+		E76EB6EC276C3E2A009B39DC /* TransporLocalC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76EB6EB276C3E2A009B39DC /* TransporLocalC.swift */; };
+		E7796410276B8DEC0025E771 /* RegistroUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779640F276B8DEC0025E771 /* RegistroUser.swift */; };
+		E77B795A276CD6E500A47792 /* DomicilioC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B7959276CD6E500A47792 /* DomicilioC.swift */; };
+		E77B7963276DA8B200A47792 /* MenuC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B7962276DA8B200A47792 /* MenuC.swift */; };
+		E77B7969276FA33400A47792 /* MiPerfilC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B7968276FA33400A47792 /* MiPerfilC.swift */; };
+		E77B796D276FA96800A47792 /* MenuUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77B796C276FA96800A47792 /* MenuUser.storyboard */; };
+		E77B7972276FD3F100A47792 /* MisViajesC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B7971276FD3F100A47792 /* MisViajesC.swift */; };
+		E786C2BF276FE46400C824EC /* FormasdePago.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786C2BE276FE46400C824EC /* FormasdePago.swift */; };
+		E786C2C2276FF48700C824EC /* InvitarAmigosC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786C2C1276FF48700C824EC /* InvitarAmigosC.swift */; };
+		E786C2C5276FF5C100C824EC /* AyudaC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786C2C4276FF5C100C824EC /* AyudaC.swift */; };
+		E786C2CA27702EA500C824EC /* EnviodePaquetesC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786C2C927702EA500C824EC /* EnviodePaquetesC.swift */; };
+		E78A2BAC276A413600CCAE31 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BAB276A413600CCAE31 /* Colors.swift */; };
+		E78A2BAF276A428E00CCAE31 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BAE276A428E00CCAE31 /* Extentions.swift */; };
+		E78A2BB4276A647F00CCAE31 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E78A2BB3276A647F00CCAE31 /* IQKeyboardManagerSwift */; };
+		E78A2BB8276A665A00CCAE31 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = E78A2BB7276A665A00CCAE31 /* SwiftMessages */; };
+		E78A2BC2276A80EB00CCAE31 /* ConfirmarOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BC1276A80EB00CCAE31 /* ConfirmarOTP.swift */; };
+		E78A2BC5276A897200CCAE31 /* NewPasword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BC4276A897200CCAE31 /* NewPasword.swift */; };
+		E78A2BC8276A907700CCAE31 /* HoraBuena.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BC7276A907700CCAE31 /* HoraBuena.swift */; };
+		E78A2BCB276AAA2A00CCAE31 /* HomeUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78A2BCA276AAA2A00CCAE31 /* HomeUser.storyboard */; };
+		E78A2BCE276AAACA00CCAE31 /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78A2BCD276AAACA00CCAE31 /* HomeTabBar.swift */; };
 		E7A89F272763BFC500F1BED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A89F262763BFC500F1BED3 /* AppDelegate.swift */; };
 		E7A89F292763BFC500F1BED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A89F282763BFC500F1BED3 /* SceneDelegate.swift */; };
 		E7A89F2B2763BFC500F1BED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A89F2A2763BFC500F1BED3 /* ViewController.swift */; };
@@ -14,9 +38,49 @@
 		E7A89F312763BFC500F1BED3 /* TransNovoa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7A89F2F2763BFC500F1BED3 /* TransNovoa.xcdatamodeld */; };
 		E7A89F332763BFC900F1BED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A89F322763BFC900F1BED3 /* Assets.xcassets */; };
 		E7A89F362763BFC900F1BED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A89F342763BFC900F1BED3 /* LaunchScreen.storyboard */; };
+		E7A89F4D2764376B00F1BED3 /* PaswordGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A89F4C2764376B00F1BED3 /* PaswordGround.swift */; };
+		E7BC838E278654CE00B6B2EC /* ReservasCrear.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC838D278654CE00B6B2EC /* ReservasCrear.swift */; };
+		E7E72A5C277399720040E585 /* CargasC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E72A5B277399720040E585 /* CargasC.swift */; };
+		E7F850AE2778DC8F004356C8 /* ReservasPagarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850AD2778DC8F004356C8 /* ReservasPagarC.swift */; };
+		E7F850B12778DFA2004356C8 /* HomeTransportador.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F850B02778DFA2004356C8 /* HomeTransportador.storyboard */; };
+		E7F850B42778E060004356C8 /* HomeTransportador.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850B32778E060004356C8 /* HomeTransportador.swift */; };
+		E7F850B72778F923004356C8 /* TransportacionLocalT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850B62778F923004356C8 /* TransportacionLocalT.swift */; };
+		E7F850BA27790D05004356C8 /* DomicilioT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850B927790D05004356C8 /* DomicilioT.swift */; };
+		E7F850BD277913D6004356C8 /* PaqueteriaT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850BC277913D6004356C8 /* PaqueteriaT.swift */; };
+		E7F850C0277919AA004356C8 /* ReservasT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850BF277919AA004356C8 /* ReservasT.swift */; };
+		E7F850C3277923AC004356C8 /* CargasT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850C2277923AC004356C8 /* CargasT.swift */; };
+		E7F850C6277933BF004356C8 /* MenuTransportador.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F850C5277933BF004356C8 /* MenuTransportador.storyboard */; };
+		E7F850CB27793741004356C8 /* MenuT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850CA27793741004356C8 /* MenuT.swift */; };
+		E7F850CE2779387B004356C8 /* MiPerfilT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850CD2779387B004356C8 /* MiPerfilT.swift */; };
+		E7F850D1277938D6004356C8 /* FormasdePagoT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850D0277938D6004356C8 /* FormasdePagoT.swift */; };
+		E7F850D42779391A004356C8 /* MisViajesT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850D32779391A004356C8 /* MisViajesT.swift */; };
+		E7F850D72779395B004356C8 /* InvitarAmigosT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850D62779395B004356C8 /* InvitarAmigosT.swift */; };
+		E7F850DA27793994004356C8 /* AyudaT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F850D927793994004356C8 /* AyudaT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E715009C27725BBF00AB8FDB /* ReservasC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasC.swift; sourceTree = "<group>"; };
+		E71854F52773ADF0008CB99A /* ReservasPasajesC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasPasajesC.swift; sourceTree = "<group>"; };
+		E71854F82773CFFE008CB99A /* ReservarPasajeC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservarPasajeC.swift; sourceTree = "<group>"; };
+		E71892432774DA87006628E7 /* PasajeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasajeCell.swift; sourceTree = "<group>"; };
+		E76EB6EB276C3E2A009B39DC /* TransporLocalC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporLocalC.swift; sourceTree = "<group>"; };
+		E779640F276B8DEC0025E771 /* RegistroUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroUser.swift; sourceTree = "<group>"; };
+		E77B7959276CD6E500A47792 /* DomicilioC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomicilioC.swift; sourceTree = "<group>"; };
+		E77B7962276DA8B200A47792 /* MenuC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuC.swift; sourceTree = "<group>"; };
+		E77B7968276FA33400A47792 /* MiPerfilC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPerfilC.swift; sourceTree = "<group>"; };
+		E77B796C276FA96800A47792 /* MenuUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuUser.storyboard; sourceTree = "<group>"; };
+		E77B7971276FD3F100A47792 /* MisViajesC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisViajesC.swift; sourceTree = "<group>"; };
+		E786C2BE276FE46400C824EC /* FormasdePago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormasdePago.swift; sourceTree = "<group>"; };
+		E786C2C1276FF48700C824EC /* InvitarAmigosC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitarAmigosC.swift; sourceTree = "<group>"; };
+		E786C2C4276FF5C100C824EC /* AyudaC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaC.swift; sourceTree = "<group>"; };
+		E786C2C927702EA500C824EC /* EnviodePaquetesC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviodePaquetesC.swift; sourceTree = "<group>"; };
+		E78A2BAB276A413600CCAE31 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E78A2BAE276A428E00CCAE31 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		E78A2BC1276A80EB00CCAE31 /* ConfirmarOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmarOTP.swift; sourceTree = "<group>"; };
+		E78A2BC4276A897200CCAE31 /* NewPasword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasword.swift; sourceTree = "<group>"; };
+		E78A2BC7276A907700CCAE31 /* HoraBuena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoraBuena.swift; sourceTree = "<group>"; };
+		E78A2BCA276AAA2A00CCAE31 /* HomeUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeUser.storyboard; sourceTree = "<group>"; };
+		E78A2BCD276AAACA00CCAE31 /* HomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
 		E7A89F232763BFC400F1BED3 /* TransNovoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransNovoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A89F262763BFC500F1BED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A89F282763BFC500F1BED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +90,24 @@
 		E7A89F322763BFC900F1BED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A89F352763BFC900F1BED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7A89F372763BFC900F1BED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A89F4C2764376B00F1BED3 /* PaswordGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaswordGround.swift; sourceTree = "<group>"; };
+		E7BC838D278654CE00B6B2EC /* ReservasCrear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasCrear.swift; sourceTree = "<group>"; };
+		E7E72A5B277399720040E585 /* CargasC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargasC.swift; sourceTree = "<group>"; };
+		E7F850AD2778DC8F004356C8 /* ReservasPagarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasPagarC.swift; sourceTree = "<group>"; };
+		E7F850B02778DFA2004356C8 /* HomeTransportador.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeTransportador.storyboard; sourceTree = "<group>"; };
+		E7F850B32778E060004356C8 /* HomeTransportador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTransportador.swift; sourceTree = "<group>"; };
+		E7F850B62778F923004356C8 /* TransportacionLocalT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportacionLocalT.swift; sourceTree = "<group>"; };
+		E7F850B927790D05004356C8 /* DomicilioT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomicilioT.swift; sourceTree = "<group>"; };
+		E7F850BC277913D6004356C8 /* PaqueteriaT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaqueteriaT.swift; sourceTree = "<group>"; };
+		E7F850BF277919AA004356C8 /* ReservasT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasT.swift; sourceTree = "<group>"; };
+		E7F850C2277923AC004356C8 /* CargasT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargasT.swift; sourceTree = "<group>"; };
+		E7F850C5277933BF004356C8 /* MenuTransportador.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuTransportador.storyboard; sourceTree = "<group>"; };
+		E7F850CA27793741004356C8 /* MenuT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuT.swift; sourceTree = "<group>"; };
+		E7F850CD2779387B004356C8 /* MiPerfilT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPerfilT.swift; sourceTree = "<group>"; };
+		E7F850D0277938D6004356C8 /* FormasdePagoT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormasdePagoT.swift; sourceTree = "<group>"; };
+		E7F850D32779391A004356C8 /* MisViajesT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisViajesT.swift; sourceTree = "<group>"; };
+		E7F850D62779395B004356C8 /* InvitarAmigosT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitarAmigosT.swift; sourceTree = "<group>"; };
+		E7F850D927793994004356C8 /* AyudaT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +115,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78A2BB8276A665A00CCAE31 /* SwiftMessages in Frameworks */,
+				E78A2BB4276A647F00CCAE31 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E718923D2774DA16006628E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7F850C927793704004356C8 /* Menu Transportador */,
+				E71892422774DA63006628E7 /* Cells */,
+				E786C2C7276FF73600C824EC /* Menu Cliente */,
+				E71892412774DA4F006628E7 /* Popup */,
+				E71892402774DA45006628E7 /* HomeUser */,
+				E718923F2774DA36006628E7 /* LoginUser */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E718923F2774DA36006628E7 /* LoginUser */ = {
+			isa = PBXGroup;
+			children = (
+				E7A89F2A2763BFC500F1BED3 /* ViewController.swift */,
+				E7A89F4C2764376B00F1BED3 /* PaswordGround.swift */,
+				E78A2BC4276A897200CCAE31 /* NewPasword.swift */,
+				E78A2BC1276A80EB00CCAE31 /* ConfirmarOTP.swift */,
+				E78A2BC7276A907700CCAE31 /* HoraBuena.swift */,
+				E779640F276B8DEC0025E771 /* RegistroUser.swift */,
+			);
+			path = LoginUser;
+			sourceTree = "<group>";
+		};
+		E71892402774DA45006628E7 /* HomeUser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeUser;
+			sourceTree = "<group>";
+		};
+		E71892412774DA4F006628E7 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		E71892422774DA63006628E7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E71892432774DA87006628E7 /* PasajeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E786C2C7276FF73600C824EC /* Menu Cliente */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Menu Cliente";
+			sourceTree = "<group>";
+		};
+		E78A2BAA276A410D00CCAE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E78A2BAB276A413600CCAE31 /* Colors.swift */,
+				E78A2BAE276A428E00CCAE31 /* Extentions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E7A89F1A2763BFC400F1BED3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +206,56 @@
 		E7A89F252763BFC400F1BED3 /* TransNovoa */ = {
 			isa = PBXGroup;
 			children = (
+				E718923D2774DA16006628E7 /* ViewControllers */,
+				E78A2BAA276A410D00CCAE31 /* Resources */,
 				E7A89F262763BFC500F1BED3 /* AppDelegate.swift */,
 				E7A89F282763BFC500F1BED3 /* SceneDelegate.swift */,
-				E7A89F2A2763BFC500F1BED3 /* ViewController.swift */,
-				E7A89F2C2763BFC500F1BED3 /* Main.storyboard */,
-				E7A89F322763BFC900F1BED3 /* Assets.xcassets */,
 				E7A89F342763BFC900F1BED3 /* LaunchScreen.storyboard */,
+				E7A89F2C2763BFC500F1BED3 /* Main.storyboard */,
+				E78A2BCA276AAA2A00CCAE31 /* HomeUser.storyboard */,
+				E77B796C276FA96800A47792 /* MenuUser.storyboard */,
+				E7F850B02778DFA2004356C8 /* HomeTransportador.storyboard */,
+				E7F850C5277933BF004356C8 /* MenuTransportador.storyboard */,
+				E77B7962276DA8B200A47792 /* MenuC.swift */,
+				E77B7968276FA33400A47792 /* MiPerfilC.swift */,
+				E77B7971276FD3F100A47792 /* MisViajesC.swift */,
+				E786C2BE276FE46400C824EC /* FormasdePago.swift */,
+				E786C2C1276FF48700C824EC /* InvitarAmigosC.swift */,
+				E786C2C4276FF5C100C824EC /* AyudaC.swift */,
+				E7A89F322763BFC900F1BED3 /* Assets.xcassets */,
 				E7A89F372763BFC900F1BED3 /* Info.plist */,
 				E7A89F2F2763BFC500F1BED3 /* TransNovoa.xcdatamodeld */,
+				E78A2BCD276AAACA00CCAE31 /* HomeTabBar.swift */,
+				E76EB6EB276C3E2A009B39DC /* TransporLocalC.swift */,
+				E77B7959276CD6E500A47792 /* DomicilioC.swift */,
+				E786C2C927702EA500C824EC /* EnviodePaquetesC.swift */,
+				E715009C27725BBF00AB8FDB /* ReservasC.swift */,
+				E7E72A5B277399720040E585 /* CargasC.swift */,
+				E71854F52773ADF0008CB99A /* ReservasPasajesC.swift */,
+				E71854F82773CFFE008CB99A /* ReservarPasajeC.swift */,
+				E7F850AD2778DC8F004356C8 /* ReservasPagarC.swift */,
+				E7F850B32778E060004356C8 /* HomeTransportador.swift */,
+				E7F850B62778F923004356C8 /* TransportacionLocalT.swift */,
+				E7F850B927790D05004356C8 /* DomicilioT.swift */,
+				E7F850BC277913D6004356C8 /* PaqueteriaT.swift */,
+				E7F850BF277919AA004356C8 /* ReservasT.swift */,
+				E7F850C2277923AC004356C8 /* CargasT.swift */,
+				E7BC838D278654CE00B6B2EC /* ReservasCrear.swift */,
 			);
 			path = TransNovoa;
+			sourceTree = "<group>";
+		};
+		E7F850C927793704004356C8 /* Menu Transportador */ = {
+			isa = PBXGroup;
+			children = (
+				E7F850CA27793741004356C8 /* MenuT.swift */,
+				E7F850CD2779387B004356C8 /* MiPerfilT.swift */,
+				E7F850D0277938D6004356C8 /* FormasdePagoT.swift */,
+				E7F850D32779391A004356C8 /* MisViajesT.swift */,
+				E7F850D62779395B004356C8 /* InvitarAmigosT.swift */,
+				E7F850D927793994004356C8 /* AyudaT.swift */,
+			);
+			path = "Menu Transportador";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +274,10 @@
 			dependencies = (
 			);
 			name = TransNovoa;
+			packageProductDependencies = (
+				E78A2BB3276A647F00CCAE31 /* IQKeyboardManagerSwift */,
+				E78A2BB7276A665A00CCAE31 /* SwiftMessages */,
+			);
 			productName = TransNovoa;
 			productReference = E7A89F232763BFC400F1BED3 /* TransNovoa.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +305,10 @@
 				Base,
 			);
 			mainGroup = E7A89F1A2763BFC400F1BED3;
+			packageReferences = (
+				E78A2BB2276A647F00CCAE31 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E78A2BB6276A665A00CCAE31 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+			);
 			productRefGroup = E7A89F242763BFC400F1BED3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,9 +323,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F850C6277933BF004356C8 /* MenuTransportador.storyboard in Resources */,
 				E7A89F362763BFC900F1BED3 /* LaunchScreen.storyboard in Resources */,
 				E7A89F332763BFC900F1BED3 /* Assets.xcassets in Resources */,
+				E77B796D276FA96800A47792 /* MenuUser.storyboard in Resources */,
+				E78A2BCB276AAA2A00CCAE31 /* HomeUser.storyboard in Resources */,
 				E7A89F2E2763BFC500F1BED3 /* Main.storyboard in Resources */,
+				E7F850B12778DFA2004356C8 /* HomeTransportador.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +341,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A89F2B2763BFC500F1BED3 /* ViewController.swift in Sources */,
+				E7F850BD277913D6004356C8 /* PaqueteriaT.swift in Sources */,
+				E7F850D42779391A004356C8 /* MisViajesT.swift in Sources */,
+				E77B7963276DA8B200A47792 /* MenuC.swift in Sources */,
+				E7F850B42778E060004356C8 /* HomeTransportador.swift in Sources */,
+				E786C2C5276FF5C100C824EC /* AyudaC.swift in Sources */,
+				E78A2BC5276A897200CCAE31 /* NewPasword.swift in Sources */,
+				E786C2BF276FE46400C824EC /* FormasdePago.swift in Sources */,
+				E78A2BC2276A80EB00CCAE31 /* ConfirmarOTP.swift in Sources */,
+				E7F850CE2779387B004356C8 /* MiPerfilT.swift in Sources */,
+				E7F850C3277923AC004356C8 /* CargasT.swift in Sources */,
+				E71854F62773ADF0008CB99A /* ReservasPasajesC.swift in Sources */,
+				E7F850C0277919AA004356C8 /* ReservasT.swift in Sources */,
+				E77B795A276CD6E500A47792 /* DomicilioC.swift in Sources */,
+				E7BC838E278654CE00B6B2EC /* ReservasCrear.swift in Sources */,
+				E7F850D72779395B004356C8 /* InvitarAmigosT.swift in Sources */,
+				E786C2C2276FF48700C824EC /* InvitarAmigosC.swift in Sources */,
+				E7F850B72778F923004356C8 /* TransportacionLocalT.swift in Sources */,
+				E71892442774DA87006628E7 /* PasajeCell.swift in Sources */,
+				E77B7969276FA33400A47792 /* MiPerfilC.swift in Sources */,
+				E78A2BAC276A413600CCAE31 /* Colors.swift in Sources */,
+				E7F850D1277938D6004356C8 /* FormasdePagoT.swift in Sources */,
+				E786C2CA27702EA500C824EC /* EnviodePaquetesC.swift in Sources */,
+				E7F850AE2778DC8F004356C8 /* ReservasPagarC.swift in Sources */,
+				E7E72A5C277399720040E585 /* CargasC.swift in Sources */,
+				E7A89F4D2764376B00F1BED3 /* PaswordGround.swift in Sources */,
+				E78A2BCE276AAACA00CCAE31 /* HomeTabBar.swift in Sources */,
+				E76EB6EC276C3E2A009B39DC /* TransporLocalC.swift in Sources */,
+				E715009D27725BBF00AB8FDB /* ReservasC.swift in Sources */,
+				E71854F92773CFFE008CB99A /* ReservarPasajeC.swift in Sources */,
+				E78A2BC8276A907700CCAE31 /* HoraBuena.swift in Sources */,
+				E7796410276B8DEC0025E771 /* RegistroUser.swift in Sources */,
 				E7A89F272763BFC500F1BED3 /* AppDelegate.swift in Sources */,
+				E77B7972276FD3F100A47792 /* MisViajesC.swift in Sources */,
+				E7F850DA27793994004356C8 /* AyudaT.swift in Sources */,
 				E7A89F312763BFC500F1BED3 /* TransNovoa.xcdatamodeld in Sources */,
 				E7A89F292763BFC500F1BED3 /* SceneDelegate.swift in Sources */,
+				E7F850BA27790D05004356C8 /* DomicilioT.swift in Sources */,
+				E78A2BAF276A428E00CCAE31 /* Extentions.swift in Sources */,
+				E7F850CB27793741004356C8 /* MenuT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6DM68W8Z7;
+				DEVELOPMENT_TEAM = 78D468AWVZ;
 				INFOPLIST_FILE = TransNovoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6DM68W8Z7;
+				DEVELOPMENT_TEAM = 78D468AWVZ;
 				INFOPLIST_FILE = TransNovoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -345,6 +581,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E78A2BB2276A647F00CCAE31 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+		E78A2BB6276A665A00CCAE31 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E78A2BB3276A647F00CCAE31 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E78A2BB2276A647F00CCAE31 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		E78A2BB7276A665A00CCAE31 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E78A2BB6276A665A00CCAE31 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E7A89F2F2763BFC500F1BED3 /* TransNovoa.xcdatamodeld */ = {

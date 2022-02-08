@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,10 +13,28 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TRANSNOVOA LOGO SIN FONDO 2" translatesAutoresizingMaskIntoConstraints="NO" id="3QG-nN-QHl">
+                                <rect key="frame" x="52.5" y="235" width="309" height="226"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="226" id="JDp-tf-M1b"/>
+                                    <constraint firstAttribute="width" constant="309" id="go3-1Y-TeB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bg waves" translatesAutoresizingMaskIntoConstraints="NO" id="UBj-wE-YMj">
+                                <rect key="frame" x="0.0" y="536" width="414" height="360"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="miBlooCorner"/>
+                        <constraints>
+                            <constraint firstItem="UBj-wE-YMj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5e4-S3-63E"/>
+                            <constraint firstAttribute="bottom" secondItem="UBj-wE-YMj" secondAttribute="bottom" id="83Y-ga-JRz"/>
+                            <constraint firstItem="3QG-nN-QHl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="THr-wu-4tI"/>
+                            <constraint firstItem="3QG-nN-QHl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ywQ-dc-kfI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22,4 +42,11 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TRANSNOVOA LOGO SIN FONDO 2" width="309" height="226"/>
+        <image name="bg waves" width="414" height="360"/>
+        <namedColor name="miBlooCorner">
+            <color red="0.0" green="0.41200000047683716" blue="0.9179999828338623" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
